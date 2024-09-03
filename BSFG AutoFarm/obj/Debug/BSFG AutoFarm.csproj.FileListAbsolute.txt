@@ -1,0 +1,130 @@
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\App.g.cs
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\MainWindow.baml
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\App.baml
+H:\Proj\BSFG AutoFarm\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csprojAssemblyReference.cache
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\x64\liblept172.dll
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\x64\libtesseract304.dll
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\x86\liblept172.dll
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\x86\libtesseract304.dll
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\App.g.cs
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_Content.g.cs
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\App.baml
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\MainWindow.baml
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+H:\Proj\BSFG AutoFarm Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csprojAssemblyReference.cache
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\x64\liblept172.dll
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\x64\libtesseract304.dll
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\x86\liblept172.dll
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\x86\libtesseract304.dll
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+H:\Proj\EW Walker Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\App.g.cs
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_Content.g.cs
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\App.baml
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\MainWindow.baml
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\Login.g.cs
+H:\Proj\EW Walker Pro\BSFG AutoFarm\obj\Debug\Login.baml
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\x64\liblept172.dll
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\x64\libtesseract304.dll
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\x86\liblept172.dll
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\x86\libtesseract304.dll
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.AssemblyReference.cache
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\Login.g.cs
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\App.g.cs
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_Content.g.cs
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\App.baml
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\Login.baml
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\MainWindow.baml
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CopyComplete
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+D:\WTOPM\Desktop\BOT\EW Walker Pro\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\x64\liblept172.dll
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\x64\libtesseract304.dll
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\x86\liblept172.dll
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\x86\libtesseract304.dll
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.AssemblyReference.cache
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\Login.g.cs
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\App.g.cs
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_Content.g.cs
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\App.baml
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\Login.baml
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\MainWindow.baml
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CopyComplete
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+D:\WTOPM\Desktop\BOT\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\x64\liblept172.dll
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\x64\libtesseract304.dll
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\x86\liblept172.dll
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\x86\libtesseract304.dll
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.AssemblyReference.cache
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\Login.g.cs
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\App.g.cs
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_Content.g.cs
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\App.baml
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\Login.baml
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\MainWindow.baml
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
+C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG Aut.A3C25A20.Up2Date
