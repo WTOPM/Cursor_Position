@@ -128,3 +128,27 @@ C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.P
 C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
 C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
 C:\Users\wtopm\Documents\GitHub\EWWalker\BSFG AutoFarm\obj\Debug\BSFG Aut.A3C25A20.Up2Date
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.AssemblyReference.cache
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\Login.g.cs
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\MainWindow.g.cs
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\App.g.cs
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_Content.g.cs
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.cache
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm_MarkupCompile.lref
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.exe
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.pdb
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\x64\liblept172.dll
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\x64\libtesseract304.dll
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\x86\liblept172.dll
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\x86\libtesseract304.dll
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe.config
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.exe
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\bin\Debug\BSFG AutoFarm.pdb
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\App.baml
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\Login.baml
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\MainWindow.baml
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.g.resources
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG_AutoFarm.Properties.Resources.resources
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.GenerateResource.cache
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG AutoFarm.csproj.CoreCompileInputs.cache
+C:\Users\wtopm\Documents\GitHub\Cursor_Position\BSFG AutoFarm\obj\Debug\BSFG Aut.A3C25A20.Up2Date

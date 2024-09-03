@@ -16,40 +16,14 @@
         <Image Source="images/ew walker.png"/>
         <Button x:Name="button" Content="Включить" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="110" Click="button_Click" Background="#4CFFFFFF" Foreground="White"/>
         <Button Visibility="Hidden" x:Name="buttonOff" Content="Выключить" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="110" Click="button_ClickOff" Background="#4CFFFFFF" Foreground="White"/>
-        <StackPanel>
-            <ComboBox ToolTip="Выберите из списка" Background="White" Padding="10,10,10,10" ItemsSource="{Binding Images}" x:Name="comboBox" HorizontalAlignment="Left" Margin="185,60,0,0" VerticalAlignment="Top" Width="300" SelectionChanged="comboBox_SelectionChanged" IsDropDownOpen="True" ClipToBounds="True" BorderThickness="5,5,5,7" BorderBrush="White" Height="99.7">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding Text}" Margin="0,3,0,0"/>
-                            <Image Source="{Binding Img}" Width="215" Height="75"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-                <ComboBoxItem IsSelected="True" IsEnabled="False" AutomationProperties.IsRowHeader="True">Укажите окно</ComboBoxItem>
-            </ComboBox>
-        </StackPanel>
-        <Label x:Name="gameWindowResLabel" Content="{Binding GameResolution}" HorizontalAlignment="Left" Margin="20,24,0,0" VerticalAlignment="Top" Foreground="{Binding GameResolutionColor}" Background="#19FFFFFF"/>
-        <CheckBox Margin="16,105,0,0" x:Name="checkBoxPartyAssist" Content="Групповой ассист" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Background="White" IsChecked="False" />
-        <CheckBox Margin="16,204,0,0" x:Name="checkBoxResetSkill" Content="Сброс умений" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Background="White" BorderBrush="#FFFFFFFF"/>
-        <CheckBox Margin="16,155,0,0" x:Name="checkBoxSaveMana" Content="Экономить 50% манны" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Background="White"/>
-        <CheckBox Margin="16,130,0,0" x:Name="checkBoxBuff1Hour" Content="Баф - NUM5-NUM0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Background="White"/>
-        <CheckBox Margin="16,180,0,0" x:Name="checkBoxHeroTarget" Content="Герой в цель" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Background="White" />
-        <CheckBox Margin="0,83,386,0" x:Name="checkBoxHunt" Content="Включить энергию охоты" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" Background="White"/>
-        <CheckBox Margin="0,35,52,0" x:Name="checkBoxTpOnDeath" Content="В столицу" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="White" Background="White" Visibility="Hidden"/>
-
+        <StackPanel/>
     </Grid>
     <Window.Resources>
         <RoutedUICommand x:Key="MyCommand1" Text="Text" />
         <RoutedUICommand x:Key="MyCommand2" Text="Text" />
     </Window.Resources>
 
-    <Window.CommandBindings>
-        <CommandBinding Command="{StaticResource MyCommand1}" 
-                    Executed="FirstMethod" />
-        <CommandBinding Command="{StaticResource MyCommand2}" 
-                    Executed="FirstMethod" />
-    </Window.CommandBindings>
+
 
     <Window.InputBindings>
         <KeyBinding Key="PageUp" Command="{StaticResource MyCommand1}" HotkeyManager.RegisterGlobalHotkey="True"/>
