@@ -15,22 +15,6 @@ namespace BSFG_AutoFarm
         private string _name;
         private string _color;
 
-        public string GameResolutionColor
-        {
-            get
-            {
-                return _color;
-            }
-
-            set
-            {
-                if (_color == value) return;
-
-                _color = value;
-                OnPropertyChanged("GameResolutionColor");
-            }
-        }
-
         #region INotifyPropertyChanged Members
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -107,8 +91,8 @@ namespace BSFG_AutoFarm
             int nWidth, int nHeight, IntPtr hObjectSource,
             int nXSrc, int nYSrc, int dwRop);
 
-        IntPtr BSFGhWnd;
-        string BSFGTitle;
+        [DllImport("user32.dll")]
+        static extern IntPtr GetForegroundWindow();
 
         [return: MarshalAs(UnmanagedType.Bool)]
         [DllImport("user32.dll")]
@@ -134,6 +118,18 @@ namespace BSFG_AutoFarm
             Minimize = 6, ShowMinNoActivate = 7, ShowNoActivate = 8,
             Restore = 9, ShowDefault = 10, ForceMinimized = 11
         };
+
+        [DllImport("user32.dll")]
+        static extern bool GetCursorPos(out POINT lpPoint);
+
+        [StructLayout(LayoutKind.Sequential)]
+        public struct POINT
+        {
+            public int
+         X;
+            public int Y;
+        }
+
 
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         [return: System.Runtime.InteropServices.MarshalAs(System.Runtime.InteropServices.UnmanagedType.Bool)]
@@ -205,15 +201,6 @@ namespace BSFG_AutoFarm
 
         public bool turnOnButton = false;
 
-        public string currentGameWindowResolution;
-
-        public const string GameWindowResolutionRule1 = "1768x992";
-        public const string GameWindowResolutionRule2 = "1366x768";
-        public const string GameWindowResolutionRule3 = "1920x1080";
-        public const string GameWindowResolutionRule4 = "1600x900";
-        public const string GameWindowResolutionRule5 = "1280x720";
-        public const int GameWindowResolutionRule1Value = 816;
-
         [DllImport("user32.dll")]
         static extern bool ClientToScreen(IntPtr hWnd, ref Point lpPoint);
 
@@ -230,20 +217,6 @@ namespace BSFG_AutoFarm
             int X = (x * 65535) / resx;
             int Y = (y * 65535) / resy;
 
-            mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_MOVE, X, Y, 0, 0);
-            System.Threading.Thread.Sleep(100);
-            mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_MOVE, X, Y, 0, 0);
-            System.Threading.Thread.Sleep(100);
-            mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_MOVE, X, Y, 0, 0);
-            System.Threading.Thread.Sleep(100);
-            mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_MOVE, X, Y, 0, 0);
-            System.Threading.Thread.Sleep(400);
-            mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-            System.Threading.Thread.Sleep(4);
-            mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-            System.Threading.Thread.Sleep(4);
-            mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
-            System.Threading.Thread.Sleep(300);
         }
 
 #pragma warning disable 649
@@ -332,6 +305,42 @@ namespace BSFG_AutoFarm
             }
         }
 
+
+        public static IntPtr GetActiveWindowHandle()
+{
+    // Try using the standard GetForegroundWindow method
+    IntPtr hWnd = GetForegroundWindow();
+    if (hWnd != IntPtr.Zero)
+    {
+        return hWnd;
+    }
+
+    // If GetForegroundWindow fails, iterate through windows
+    EnumWindows((delegate (IntPtr wndHandle, IntPtr lParam)
+    {
+        if (IsWindowVisible(wndHandle) && GetFocus() == wndHandle)
+        {
+            return false; // Stop enumeration if a visible and focused window is found
+        }
+        return true; // Continue enumeration
+    }), IntPtr.Zero);
+
+    // If no suitable window is found, return IntPtr.Zero
+    return IntPtr.Zero;
+}
+
+[DllImport("user32.dll")]
+static extern bool EnumWindows(EnumWindowsProc enumProc, IntPtr lParam);
+
+delegate bool EnumWindowsProc(IntPtr hWnd, IntPtr lParam);
+
+[DllImport("user32.dll")]
+static extern bool IsWindowVisible(IntPtr hWnd);
+
+[DllImport("user32.dll")]
+static extern IntPtr GetFocus();
+
+
         [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
         public static extern void mouse_event(int dwFlags, int dx, int dy, int cButtons, int dwExtraInfo);
 
@@ -345,6 +354,48 @@ namespace BSFG_AutoFarm
         private void button_Click(object sender, RoutedEventArgs e)
         {
 
+            Window mainWindow = Application.Current.MainWindow;
+
+            if (mainWindow.WindowState == WindowState.Minimized)
+            {
+                mainWindow.WindowState = WindowState.Normal;
+            }
+
+            mainWindow.Activate();
+
+
+
+            POINT lpPoint;
+            GetCursorPos(out lpPoint);
+
+            var wpfPoint = new Point(lpPoint.X, lpPoint.Y);
+
+            var x = wpfPoint.X;
+            var y = wpfPoint.Y;
+
+            var x_Abs = (int)((x * 65535) / 1920);
+            var y_Abs = (int)((y * 65535) / 1080);
+
+            x_Text.Text = x.ToString();
+            y_Text.Text = y.ToString();
+            x_Text_Abs.Text = x_Abs.ToString();
+            y_Text_Abs.Text = y_Abs.ToString();
+
+            IntPtr hWnd = GetForegroundWindow();
+
+            string R_Col = RColor.Get(hWnd, (int)x, (int)y);
+
+            string G_Col = GColor.Get(hWnd, x_Abs, y_Abs);
+
+            string B_Col = BColor.Get(hWnd, x_Abs, y_Abs);
+
+            R_Color_Text.Text = R_Col;
+            G_Color_Text.Text = G_Col;
+            B_Color_Text.Text = hWnd.ToString();
+
+
+            // MessageBox.Show($"X = {x}, Y = {y}"+ " " +$"X_Abs = {x_Abs}, Y_Abs = {y_Abs}");
+            // MessageBox.Show($"X_Abs = {x_Abs}, Y_Abs = {y_Abs}");
         }
 
         private void button_ClickOff(object sender, RoutedEventArgs e)

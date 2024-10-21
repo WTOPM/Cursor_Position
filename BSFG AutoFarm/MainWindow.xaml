@@ -4,19 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BSFG_AutoFarm"
-        xmlns:Properties="clr-namespace:BSFG_AutoFarm.Properties" x:Class="BSFG_AutoFarm.MainWindow"
+        xmlns:Properties="clr-namespace:BSFG_AutoFarm.Properties" x:Name="name" x:Class="BSFG_AutoFarm.MainWindow"
         mc:Ignorable="d"
-        Title="EW Walker v1.0" Height="450" Width="567"
+        Title="Cursor Position" Height="155" Width="270"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         Background="{DynamicResource MaterialDesignPaper}"
         TextElement.FontWeight="Medium"
         TextElement.FontSize="12"
-        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto" ResizeMode="CanMinimize" Icon="images/walker.ico">
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto" ResizeMode="CanMinimize">
     <Grid>
-        <Image Source="images/ew walker.png"/>
-        <Button x:Name="button" Content="Включить" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="110" Click="button_Click" Background="#4CFFFFFF" Foreground="White"/>
+
+        <Button x:Name="button" Content="Включить" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="110" Click="button_Click" Background="#4CFFFFFF" Foreground="White" Visibility="Hidden"/>
         <Button Visibility="Hidden" x:Name="buttonOff" Content="Выключить" HorizontalAlignment="Left" Margin="220,195,0,0" VerticalAlignment="Top" Width="110" Click="button_ClickOff" Background="#4CFFFFFF" Foreground="White"/>
         <StackPanel/>
+        <TextBox x:Name="x_Text" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="y_Text" HorizontalAlignment="Left" Margin="135,10,0,0" TextWrapping="Wrap" Text="Y" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="x_Text_Abs" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="X_Abs" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="y_Text_Abs" HorizontalAlignment="Left" Margin="135,31,0,0" TextWrapping="Wrap" Text="Y_Abs" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="R_Color_Text" HorizontalAlignment="Center" Margin="0,58,0,0" TextWrapping="Wrap" Text="R - Color" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="G_Color_Text" HorizontalAlignment="Center" Margin="0,79,0,0" TextWrapping="Wrap" Text="G - Color" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="B_Color_Text" HorizontalAlignment="Center" Margin="0,100,0,0" TextWrapping="Wrap" Text="B - Color" VerticalAlignment="Top" Width="120"/>
     </Grid>
     <Window.Resources>
         <RoutedUICommand x:Key="MyCommand1" Text="Text" />

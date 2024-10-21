@@ -15,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|solutionrelative:bsfg autofarm\\rcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\bsfg autofarm\\iconic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|solutionrelative:bsfg autofarm\\iconic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\bsfg autofarm\\bcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|solutionrelative:bsfg autofarm\\bcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\bsfg autofarm\\gcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC07206F-D718-4A23-A8DE-3AEA7B5D6063}|BSFG AutoFarm\\BSFG AutoFarm.csproj|solutionrelative:bsfg autofarm\\gcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,44 +30,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "BSFG AutoFarm\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml",
-              "RelativeToolTip": "BSFG AutoFarm\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-26T13:48:52.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Iconic.cs",
-              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\Iconic.cs",
-              "RelativeDocumentMoniker": "BSFG AutoFarm\\Iconic.cs",
-              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\Iconic.cs",
-              "RelativeToolTip": "BSFG AutoFarm\\Iconic.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwCgAAAAOAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-07-26T13:48:52.945Z"
+              "Title": "BColor.cs",
+              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\BColor.cs",
+              "RelativeDocumentMoniker": "BSFG AutoFarm\\BColor.cs",
+              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\BColor.cs",
+              "RelativeToolTip": "BSFG AutoFarm\\BColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:28:07.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "BSFG AutoFarm\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml.cs",
-              "RelativeToolTip": "BSFG AutoFarm\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAUBAAAAAAAAAAAqwPYAAAAJAAAA",
+              "DocumentIndex": 4,
+              "Title": "GColor.cs",
+              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\GColor.cs",
+              "RelativeDocumentMoniker": "BSFG AutoFarm\\GColor.cs",
+              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\GColor.cs",
+              "RelativeToolTip": "BSFG AutoFarm\\GColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T13:48:53.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T16:27:25.058Z"
             },
             {
               "$type": "Document",
@@ -73,9 +64,35 @@
               "RelativeDocumentMoniker": "BSFG AutoFarm\\RColor.cs",
               "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\RColor.cs",
               "RelativeToolTip": "BSFG AutoFarm\\RColor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-07-26T13:48:53.202Z"
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:26:22.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BSFG AutoFarm\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BSFG AutoFarm\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAcwFQBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:33:17.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BSFG AutoFarm\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\wtopm\\Documents\\GitHub\\Cursor_Position\\BSFG AutoFarm\\MainWindow.xaml",
+              "RelativeToolTip": "BSFG AutoFarm\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-03T18:01:57.268Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -54,7 +54,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>walker.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Costura, Version=3.1.4.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
@@ -99,7 +100,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Iconic.cs" />
+    <Compile Include="BColor.cs" />
+    <Compile Include="GColor.cs" />
     <Compile Include="RColor.cs" />
     <Page Include="Login.xaml">
       <SubType>Designer</SubType>
@@ -155,9 +157,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\walker.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="walker.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
